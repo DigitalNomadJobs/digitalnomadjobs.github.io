@@ -8,12 +8,7 @@ header > div {
 }
 
 /* resize images */
-.size{
-    width: 10%;
-    height: auto;
-}
-
-.size2{
+.container img{
     width: 10%;
     height: auto;
 }

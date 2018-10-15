@@ -1,0 +1,14 @@
+header > div {
+    background-image:linear-gradient(to bottom right,rgb(190, 227, 231) , rgb(8, 55, 58));
+}
+
+.container {
+    width: 100px;
+    height: 60x;
+}
+
+/* resize images */
+.container img{
+    width: 10%;
+    height: auto;
+}

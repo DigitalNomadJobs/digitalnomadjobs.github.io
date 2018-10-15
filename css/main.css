@@ -1,0 +1,45 @@
+body {
+    background: #f4f4f4;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+    font-size: 1.4rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav ul  {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img {
+    width: 50px;
+    height: 50px;
+    margin-right: 30px;
+}
+.logo-img {
+    display: flex;
+    align-items: center;
+}
+.home {
+    padding-right: 40px;
+}
+.btn.cta {
+    padding-right: 40px;
+}
+.btn.cta a {
+    text-decoration: none;
+    padding: 15px;
+    color: #fff;
+    background: #3bec77;
+    border-radius: 8px;
+}

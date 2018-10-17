@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+}
+.headline {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 5vh);
+  justify-content: center;
+  margin-left: 5%;
+  width: 50%;
+}
+
+.headline-title {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 50px;
+}
+
+.element {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 35px;
+}
+.playstore-button {
+   width: 200px;
+}
+.list-container {
+  margin-bottom: 40px;
+}
+
+.link-playstore {
+  width: 200px;
+}
+
+.social-media-super-container {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10%;
+}
+
+.icon-link-container {
+  background: red;
+  width: 30px;
+}
+.icon-link-container:visited {
+  text-decoration: none
+}
+
+a {
+  text-decoration: none;
+}
+
+.circle {
+  align-items: center;
+  border: white 1px solid;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  text-decoration: none;
+  width: 50px;
+}
+
+.facebook:hover {
+  background: #405DE6;
+}
+
+.twitter:hover {
+  background: #3492C7;
+}
+
+.insta:hover {
+  background: #E1306C;
+}
+
+.social-icon {
+  color: white;
+  font-size: 30px;
+}

@@ -12,7 +12,18 @@
   font-size: 50px;
   font-family: 'Quicksand', sans-serif;
 }
+
 .element {
   font-size: 35px;
   font-family: 'Quicksand', sans-serif;
+}
+.playstore-button {
+   width: 200px;
+}
+.list-container {
+  margin-bottom: 40px;
+}
+
+.link-playstore {
+  width: 200px;
 }

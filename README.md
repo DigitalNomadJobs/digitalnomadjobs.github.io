@@ -1,13 +1,13 @@
 ## Website for the Digital Nomad Jobs App
 
-Seeking contributions for the website of the Digital Nomad Jobs App. This will be a basic one page static website (just HTML,CSS and JavaScript) that will be be hosted here on Github.
+Seeking contributions for the website of the Digital Nomad Jobs App. This will be a basic one-page static website (using HTML, CSS, and JavaScript) that will be hosted on Github.
 
 ### Inspiration
 ![digitalnomadjobs_web](https://user-images.githubusercontent.com/22801227/46948173-6479e680-d07d-11e8-9349-9a2d80d5467b.png)
 
 ### Goals
 
-* Visitors should be directed to the app in order to increase downloads
+* Visitors will be directed to the app in order to increase downloads
 * Provide brief information about the app to generate interest in the app
 * Visible call to actions to download the app
 * Display screenshots of the app 

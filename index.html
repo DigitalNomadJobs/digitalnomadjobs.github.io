@@ -4,9 +4,146 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>2-5</title>
 </head>
+<style>
+    html
+    {
+        background: linear-gradient(to bottom right, #333399 0%, #99ffcc 100%);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: auto%;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .gcontainer 
+    {
+        display: grid;
+        grid-template-rows:1fr 3fr .5fr .1fr;
+        grid-template-columns: 2fr 1fr;
+        grid-gap:1em;
+    }
+    .head
+    {
+        margin: 5em 0 0 1em;
+        z-index: 2;
+    }
+    .list
+    {
+        font-size: 1.5em;
+    }
+    .pics
+    {
+        height: auto;
+        width: 55%;
+    }
+    #p1
+    {
+        webkit-transform:rotate(45deg); /* Chrome, Safari, Opera */
+        transform:rotate(45deg); /* Standard syntax */
+
+    }
+    #p2
+    {
+        webkit-transform:rotate(45deg); /* Chrome, Safari, Opera */
+        transform:rotate(45deg); /* Standard syntax */
+        height: auto;
+        width:35%;
+        right:5px;
+        z-index: 1;
+    }
+    #p3
+    {
+        webkit-transform:rotate(45deg); /* Chrome, Safari, Opera */
+        transform:rotate(45deg); /* Standard syntax */
+        
+    }
+    #share-buttons img 
+    {
+        width: 2em;
+        padding: 1em;
+        border: 0;
+        box-shadow: 0;
+        display: inline;
+        align-items: center
+
+    }
+    #launchers
+    {
+        margin:2em;
+    }
+    #goog
+    {
+        margin-right:1em;
+    }
+    @media screen and (max-width:1080px)
+    {
+        .list
+        {
+            font-size: 1.1em;
+        }
+    }*/ 
+</style>
 <body>
+    <div class="gcontainer">
+        <div class="head">
+            <h1>Find your dream job from the comfort of your home with the <br>Digital Nomads App.</h1>
+        </div>
+        <div>
+            <img class=pics src=1.png id=p1>
+        </div>
+        <div class=list>
+            <ul>
+                <li>
+                    Get the latest jobs at the moment they are posted.
+                </li>
+                <br>
+                <li>
+                    Quickly view a job's requirements and responsibilities.
+                </li>
+                <br>
+                <li>
+                    Search by categories for specific jobs.
+                </li>
+                <br>
+                <li>
+                    Then, tap apply to apply for your dream job!
+                </li>
+                <br><br>
+                <img src=2.png id=p2>
+            </ul>
+        </div>
+        <div>
+            <img class=pics src=3.png id=p3>
+        </div>
+        <div id="launchers"> 
+            <a target="_blank" href="https://play.google.com/store/apps/details?id=io.github.alistairholmes.digitalnomadjobs">
+                <img id="goog" src="./play_store.svg">
+            </a>
+            <a taeget="_blank" href="https://www.google.com">
+                <img src="./app_store.png">
+            </a>                
+        </div>
+        <div></div>
+            <!-- I got these buttons from simplesharebuttons.com -->
+<div id="share-buttons">
+    <!-- Facebook -->
+    <a href="http://www.facebook.com/sharer.php?u=https://simplesharebuttons.com" target="_blank">
+        <img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" />
+    </a>
     
+    <!-- Google+ -->
+    <a href="https://plus.google.com/share?url=https://simplesharebuttons.com" target="_blank">
+        <img src="https://simplesharebuttons.com/images/somacro/google.png" alt="Google" />
+    </a>
+
+    <!-- Twitter -->
+    <a href="https://twitter.com/share?url=https://simplesharebuttons.com&amp;text=Simple%20Share%20Buttons&amp;hashtags=simplesharebuttons" target="_blank">
+        <img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" />
+    </a>
+</div>
+        <div></div>
+    </div>
 </body>
 </html>

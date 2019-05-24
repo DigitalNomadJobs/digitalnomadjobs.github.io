@@ -184,7 +184,7 @@ input, select, textarea {
 		transition: opacity 2s ease-in-out;
 		height: 100%;
 		left: 0;
-		opacity: 0.25;
+		opacity: 0.9;
 		position: fixed;
 		top: 0;
 		width: 100%;
@@ -1032,11 +1032,13 @@ input, select, textarea {
 
 	#header h1 {
 		font-size: 3.25em;
+		font-family: 'Montserrat';
 		margin: 0 0 0.55em 0;
 	}
 
 	#header p {
 		font-size: 1.35em;
+		font-family: 'Montserrat';
 		line-height: 1.65em;
 	}
 
@@ -1063,6 +1065,10 @@ input, select, textarea {
 		}
 
 	}
+
+/* App Screen Showcase */
+
+
 
 /* Signup Form */
 

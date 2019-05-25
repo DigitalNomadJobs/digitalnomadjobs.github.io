@@ -23,6 +23,7 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
+	font-family: 'Montserrat';
 	vertical-align: baseline;}
 
 article, aside, details, figcaption, figure,
@@ -171,8 +172,13 @@ input, select, textarea {
 		}
 
 		img.badge {
-			max-width: 17.5%;
+			margin: 0 0 0 0;
+			width: 15%;
 			height: auto;
+		}
+
+		.subscribe {
+			background: #199e83;
 		}
 
 /* BG */
@@ -499,7 +505,7 @@ input, select, textarea {
 	}
 
 	header p {
-		color: rgba(255, 255, 255, 0.5);
+		color: rgba(255, 255, 255, 0.726);
 		position: relative;
 		margin: 0 0 1.5em 0;
 	}
@@ -1087,7 +1093,7 @@ input, select, textarea {
 		}
 
 		#signup-form > * {
-			margin: 0 0 0 1em;
+			margin: 0 0 0 0;
 		}
 
 		#signup-form > :first-child {
@@ -1140,7 +1146,7 @@ input, select, textarea {
 	}
 
 		#footer .icons {
-			margin: 0 0 0.5em 0;
+			margin: 0 0 0 0;
 		}
 
 		#footer .copyright {
@@ -1178,7 +1184,7 @@ input, select, textarea {
 		@media screen and (max-width: 1680px) {
 
 			#footer {
-				bottom: 3.5em;
+				bottom: 1em;
 				left: 3.5em;
 			}
 

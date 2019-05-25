@@ -181,6 +181,11 @@ input, select, textarea {
 			background: #199e83;
 		}
 
+		.floatRight{
+			float:right;
+			margin-left:20px
+		}
+
 /* BG */
 
 	#bg {

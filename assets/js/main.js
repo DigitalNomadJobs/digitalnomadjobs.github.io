@@ -37,6 +37,8 @@
 					// Images (in the format of 'url': 'alignment').
 						images: {
 							'images/BG-1.png': 'center',
+							'images/bg-mockup.jpg': 'center',
+							'images/bg-mockup-2.jpg': 'center'
 						},
 
 					// Delay.

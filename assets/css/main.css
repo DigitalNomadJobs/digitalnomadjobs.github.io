@@ -181,10 +181,24 @@ input, select, textarea {
 			background: #199e83;
 		}
 
-		.floatRight{
-			float:right;
-			margin-left:20px
-		}
+		.home-image-right {
+			display: block;
+			position: absolute;
+			right: 0;
+			top: 30%;
+			-webkit-transform: translateY(-50%);
+			-ms-transform: translateY(-50%);
+			transform: translateY(-50%);
+			padding-top: 21rem;
+			z-index: 500;
+			width: 50%;
+			text-align: right;
+		  }
+		  
+		  .home-image-right img {
+			vertical-align: top;
+			width: 75%;
+		  }
 
 /* BG */
 
